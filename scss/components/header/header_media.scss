@@ -1,0 +1,40 @@
+@media (max-width: 576px) {
+
+  header {
+    .header_wrapper {
+      .header_main {
+        .navbar.navbar-expand-lg.navbar-light.bg-white {
+         .navbar-brand{
+           img{
+             max-width: 150px;
+           }
+         }
+
+          .container-fluid{
+            .header_main_search{
+              a {
+                padding: 0 20px 0 10px;
+              }
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+}
+@media (max-width: 332px) {
+  header {
+    .header_wrapper {
+      .header_top {
+        height: 56px;
+        .header_top_wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

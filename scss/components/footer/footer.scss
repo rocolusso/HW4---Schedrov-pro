@@ -1,0 +1,175 @@
+footer{
+  .foooter-wrapper{
+    .footer-main{
+      background: #26282C;
+      color: #FFFFFF;
+      .footer-main-wrapper {
+        padding: 47px 0 22px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .footer-main-left{
+          .footer-main-left-logo{
+
+        }
+          .footer-main-left-contacts{
+            padding: 16px 0 26px 0;
+              .contacts-item{
+                width: 215px;
+                display: flex;
+                align-items: start;
+                img{
+                padding: 5px 10px 0 0;
+                }
+                p{
+                  color: #BDBDBE;
+                }
+                a{
+                  text-decoration: none;
+                  color: #BDBDBE;
+                  &:hover {
+                    color: #99C63C;
+                  }
+                }
+                &:nth-child(2n){
+                  padding: 21px 0 21px 0;
+                }
+              }
+          }
+        }
+        .footer-main-center{
+          display: flex;
+          flex-wrap: wrap;
+        .footer-main-center-category-item{
+          &:nth-child(2){
+            padding-left: 50px;
+          }
+          &:nth-child(3){
+            padding-left: 50px;
+          }
+          &:nth-child(4){
+            padding-left: 50px;
+          }
+          .footer-category-tittle{
+            color: #FFFFFF;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 22px;
+          }
+          .footer-category-list{
+            padding: 16px 0 0 0;
+            .footer-category-list-item{
+                padding: 0 0 2px 0;
+              a{
+                text-decoration: none;
+                color: #BDBDBE;
+                font-family: 'Lato' ,sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                &:hover {
+                  color: #99C63C;
+                }
+              }
+            }
+          }
+        }
+        }
+        .footer-main-right{
+         .footer-main-right-tittle{
+           font-family: 'Lato' , sans-serif;
+           font-style: normal;
+           font-weight: 700;
+           font-size: 17px;
+           text-align: left;
+         }
+          .footer-main-right-form{
+            padding: 23px 0 0 0;
+            position: relative;
+            form{
+              input {
+                background: #26282C;
+                width: 100%;
+                padding: 16px 30px 16px 39px ;
+                color: #BDBDBE;
+                border: 0.5px solid #515151;
+                box-sizing: border-box;
+                border-radius: 39px;
+              }
+            }
+            .icon-search {
+              position: absolute;
+              padding: 10px;
+              pointer-events: none;
+              right: 16.25px;
+              top: 28px;
+              z-index: 1;
+            }
+            .footer_lang{
+              display: flex;
+              background: #26282C;
+              padding: 15px 68px 15px 55px;
+              border: 0.5px solid #515151;
+              box-sizing: border-box;
+              border-radius: 39px;
+              margin: 8px 0 0 0;
+
+              img{
+                align-self: center;
+                padding-right: 6.25px;
+              }
+              .dropdown {
+                align-self: center;
+                .btn.btn-secondary.dropdown-toggle{
+                  padding-top: 2px;
+                  padding-bottom: 2px;
+                  border: none;
+                  background-color: transparent;
+                  color: white;
+                }
+              }
+            }
+          }
+          .footer-social{
+            padding: 32.25px 0 0 0;
+            display: flex;
+            justify-content: space-between;
+            img{
+              &:hover {
+                transform: scale(1.5);
+                transition: .3s;
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer-bottom{
+      height: 40px;
+      background: #000000;
+      .footer-bottom-wrapper{
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      .footer-bottom-copyright{
+        align-self: center;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        color: #BDBDBE;
+      }
+        .footer-bottom-scroll-to-top{
+        a{
+          img{
+
+          }
+        }
+        }
+     }
+    }
+  }
+}
